@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Model Slider</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css">
+  <link rel="shortcut icon" href="favicon.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@14.4.0/swiper-bundle.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="index.html" class="nav-logo">
+        <i class="ri-vip-diamond-fill"></i> MODEL
+      </a>
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#!" class="nav-link">Home</a></li>
+          <li><a href="#!" class="nav-link">Models</a></li>
+          <li><a href="#!" class="nav-link">Gallery</a></li>
+          <li><a href="#!" class="nav-link">Women</a></li>
+          <li><a href="#!" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="nav-close" id="nav-close">
+          <i class="ri-close-large-fill"></i>
+        </button>
+      </div>
+      <button class="nav-toggle" id="nav-toggle">
+        <i class="ri-menu-fill"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="home">
+      <div class="home-swiper swiper">
+        <div class="swiper-wrapper">
+          <article class="home-slider home-slide-pink swiper-slide">
+            <div class="home-container container">
+              <div class="home-glow"></div>
+              <div class="home-titles">
+                <span class="home-subtitle" data-swiper-parallax-y="300" data-swiper-parallax-opacity="0">New</span>
+                <h1 class="home-title" data-swiper-parallax-y="-300" data-swiper-parallax-opacity="0">Pink</h1>
+              </div>
+              <img src="model-1.png" alt="" class="home-img" data-swiper-parallax="-150%">
+              <div class="home-card" data-swiper-parallax="-300">
+                <div class="home-card-img">
+                  <img src="model-2.png" alt="" class="home-card-model">
+                  <button class="home-card-button">
+                    <i class="ri-arrow-right-s-fill"></i>
+                  </button>
+                </div>
+                <div class="home-card-data">
+                  <span class="home-card-number"></span>
+                  <p class="home-card-description">
+                    Add effortless chic to your attire with this jacket.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="home-slider home-slide-lilac swiper-slide">
+            <div class="home-container container">
+              <div class="home-glow"></div>
+              <div class="home-titles">
+                <span class="home-subtitle" data-swiper-parallax-y="300" data-swiper-parallax-opacity="0">New</span>
+                <h1 class="home-title" data-swiper-parallax-y="-300" data-swiper-parallax-opacity="0">Lilac</h1>
+              </div>
+              <img src="model-2.png" alt="" class="home-img" data-swiper-parallax="-150%">
+              <div class="home-card" data-swiper-parallax="-300">
+                <div class="home-card-img">
+                  <img src="model-3.png" alt="" class="home-card-model">
+                  <button class="home-card-button">
+                    <i class="ri-arrow-right-s-fill"></i>
+                  </button>
+                </div>
+                <div class="home-card-data">
+                  <span class="home-card-number"></span>
+                  <p class="home-card-description">
+                    Add effortless chic to your attire with this jacket.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+          <article class="home-slider home-slide-lightblue swiper-slide">
+            <div class="home-container container">
+              <div class="home-glow"></div>
+              <div class="home-titles">
+                <span class="home-subtitle" data-swiper-parallax-y="300" data-swiper-parallax-opacity="0">New</span>
+                <h1 class="home-title" data-swiper-parallax-y="-300" data-swiper-parallax-opacity="0">Blue</h1>
+              </div>
+              <img src="model-3.png" alt="" class="home-img" data-swiper-parallax="-150%">
+              <div class="home-card" data-swiper-parallax="-300">
+                <div class="home-card-img">
+                  <img src="model-1.png" alt="" class="home-card-model">
+                  <button class="home-card-button">
+                    <i class="ri-arrow-right-s-fill"></i>
+                  </button>
+                </div>
+                <div class="home-card-data">
+                  <span class="home-card-number"></span>
+                  <p class="home-card-description">
+                    Add effortless chic to your attire with this jacket.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+      <div class="home-controls container">
+        <span class="home-number">
+          <span class="home-number-text" id="home-number"></span>
+        </span>
+        <span class="home-count">
+          <span class="home-count-text" id="home-count"></span>
+        </span>
+        <button class="home-button home-button-prev">
+          <i class="ri-arrow-left-s-fill"></i>
+        </button>
+        <button class="home-button home-button-next">
+          <i class="ri-arrow-right-s-fill"></i>
+        </button>
+        <div class="home-social">
+          <a href="#!" class="home-social-link">
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a href="#!" class="home-social-link">
+            <i class="ri-twitter-x-line"></i>
+          </a>
+          <a href="#!" class="home-social-link">
+            <i class="ri-facebook-line"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@14.4.0/swiper-bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
